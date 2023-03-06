@@ -1,0 +1,139 @@
+.container {
+  display: grid;
+  width: 1600px;
+  height: 862px;
+  grid-template-columns: 889px 711px;
+  grid-template-rows: 126px 736px;
+  background: rgba(242, 206, 218, 0.3);
+}
+.header {
+  grid-column: 1 / 3;
+  grid-row: 1 / 2;
+}
+.menu {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  width: 1125px;
+  height: 79px;
+  left: 245px;
+  top: 10px;
+}
+.logo {
+  width: 79px;
+  height: 79px;
+  left: 245px;
+  top: 10px;
+}
+a {
+  margin-right: 10px;
+  padding: 10px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #150101;
+  opacity: 0.6;
+}
+.navcontainer {
+  display: flex;
+  margin-left: 300px;
+  align-items: center;
+}
+.form {
+  position: fixed;
+  width: 165px;
+  height: 49px;
+  left: 1205px;
+  top: 25px;
+  border-radius: 5px;
+  background: rgba(210, 49, 102, 1);
+  font-family: Hind Madurai;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  color: #fafafa;
+}
+.main {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+}
+.maincontainer {
+  position: absolute;
+  width: 665px;
+  height: 364px;
+  top: 285px;
+  left: 254px;
+  display: flex;
+  flex-direction: column;
+}
+.t1 {
+  margin-bottom: 15px;
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #0f0101;
+}
+.t2 {
+  margin-bottom: 20px;
+  font-family: Fredoka One;
+  font-style: normal;
+  font-size: 57.33px;
+  line-height: 69px;
+  line-height: 121%;
+  color: rgba(15, 1, 1, 1);
+}
+#red {
+  color: rgba(210, 49, 102, 1);
+}
+.t3 {
+  margin-bottom: 40px;
+  font-family: Hind Madurai;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 27px;
+  line-height: 109%;
+  color: #0f0101;
+  opacity: 60%;
+}
+.form2 {
+  justify-content: end;
+  width: 165px;
+  height: 49px;
+  border-radius: 5px;
+  background: rgba(210, 49, 102, 1);
+  font-family: Hind Madurai;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  color: #fafafa;
+}
+.aside {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+}
+.ice {
+  position: fixed;
+  width: 597px;
+  height: 597px;
+  top: 126px;
+  left: 889px;
+}
+.cream {
+  position: fixed;
+  width: 851.86px;
+  height: 548.1px;
+  top: 251px;
+  left: 785.8px;
+}
+.ellips {
+  position: fixed;
+  width: 365px;
+  height: 354px;
+  top: 411px;
+  left: 1005px;
+}
